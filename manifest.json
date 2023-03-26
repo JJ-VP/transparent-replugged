@@ -1,18 +1,18 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "JJ.transparent",
+  "name": "Transparent-cord",
+  "description": "Makes Discord transparent",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "JJ",
+    "discordID": "176721924448059402",
+    "github": "JJ-VP"
   },
   "version": "1.0.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "jj-vp/transparent-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/main.css"
+  "main": "src/_index.scss"
 }

@@ -1,0 +1,37 @@
+/* Background image */
+.appMount-2yBXZl {
+  background-size: cover !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    /*Change the alpha of both to dim the background */
+      url("https://wallpaperaccess.com/full/260168.jpg") no-repeat center; /*Change the url to any image you want */
+}
+
+/* Discord why are you like this */
+/* Stuff that doesn't get its color from a variable */
+.chat-2ZfjoI>*, .chat-2ZfjoI>*>* /* Stuff that "overwrights" the chat window such as server Q&A / Community search */ {
+  background: transparent !important;
+}
+
+/* User popout roles */
+.role-2TIOKu {
+  border: 1px solid;
+  border-color: hsla(0, 0%, 100%, 0.2) !important;
+}
+
+/* Dim stuff */
+.layer-2BGhQ8:not(.disabledPointerEvents-cGr1My)>*>*, /* Popouts */
+.contentColumn-1C7as6, .background-2avFV1, /* Bunch of background */
+.connectionHeader-Ixbb1s, .connectionOptionsWrapper-3aVWcp, .integrationsWrapper-1V-5L9, .metadataContainer-35U-On, .connectContainer-1hylYM, /* Connection menu */
+.replugged-quickcss-wrapper, /* Quick CSS */
+.scrollableContainer-15eg7h, .autocomplete-3NRXG8, /* Message area */
+.expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi), /* Folder background */
+.grid-1aWVsE, .wrapper-1FP9YQ, /* Embeds */
+.scrollbarGhostHairline-2LpzZ9, .inline /* Code blocks */ {
+  background-color: #0005 !important;
+}
+
+.layers-OrUESM {
+  margin: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.375);
+}

@@ -1,0 +1,18 @@
+:root,
+.theme-dark,
+.theme-light {
+  /* Main */
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-secondary-alt: transparent;
+  --background-tertiary: transparent;
+  /* Scrollbars */
+  --scrollbar-auto-thumb: #000000dd;
+  --scrollbar-auto-track: #00000066;
+  /* User popout */
+  --profile-body-background-color: transparent;
+
+  /* Misc */
+  --modal-background: transparent;
+  --modal-footer-background: transparent;
+}

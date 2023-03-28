@@ -105,3 +105,4 @@ dist
 
 .parcel-cache
 /bundle
+/package-lock*

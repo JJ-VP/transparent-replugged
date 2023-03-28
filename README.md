@@ -1,4 +1,4 @@
-# Transparent Replugged!
+# Transparent Replugged! - AKA TransparentCord
 
 This is my original work so feel free to use / edit it however you want.
 

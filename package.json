@@ -1,7 +1,7 @@
 {
-  "name": "theme-template",
-  "version": "1.0.0",
-  "description": "A theme template",
+  "name": "Transparent-cord",
+  "version": "1.0.1",
+  "description": "Makes Discord transparent",
   "engines": {
     "node": ">=14.0.0"
   },

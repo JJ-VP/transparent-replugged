@@ -7,12 +7,12 @@
     "discordID": "176721924448059402",
     "github": "JJ-VP"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updater": {
     "type": "github",
     "id": "jj-vp/transparent-replugged"
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/_index.scss"
+  "main": "src/index.css"
 }

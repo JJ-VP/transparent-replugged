@@ -10,7 +10,7 @@ Found something that isn't trasparent that should be? Either fix it and [create 
 ## Q&A
 
 Q: Can I change the background image?</br>
-A: Yes, but also No. In the release version, No. You would have to clone the repo and edit the main.css to change the background-image url to an image of your choice.</br></br>
+A: Yes, but also No. In the release version, No. You would have to clone the repo and edit the index.css to change the background-image url to an image of your choice.</br></br>
 Q: Can I change the background dim?</br>
 A: Same as above, except this time you are changing the linear-gradient alpha (thats the last number of the rgba 0 = no dim, 1 = fully dimmed)
 

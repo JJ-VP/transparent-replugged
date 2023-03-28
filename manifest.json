@@ -1,5 +1,5 @@
 {
-  "id": "JJ.transparent",
+  "id": "dev.jj.transparent",
   "name": "Transparent-cord",
   "description": "Makes Discord transparent",
   "author": {
@@ -7,7 +7,7 @@
     "discordID": "176721924448059402",
     "github": "JJ-VP"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "updater": {
     "type": "github",
     "id": "jj-vp/transparent-replugged"

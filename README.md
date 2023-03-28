@@ -23,7 +23,7 @@ A: Same as above, except this time you are changing the linear-gradient alpha (t
 ### Manual:
 
 1. Download the latest
-   [JJ.transparent.asar](https://github.com/JJ-VP/transparent-replugged/releases/latest/download/JJ.transparent.asar)
+   [dev.jj.transparent.asar](https://github.com/JJ-VP/transparent-replugged/releases/latest/download/JJ.transparent.asar)
 2. [Place the asar into the replugged themes folder](https://github.com/replugged-org/replugged/wiki/Installing-plugins-and-themes)
 3. Load Missing Themes
 

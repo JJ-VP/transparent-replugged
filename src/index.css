@@ -7,8 +7,8 @@
   --background-secondary-alt: transparent;
   --background-tertiary: transparent;
   /* Scrollbars */
-  --scrollbar-auto-thumb: #000000dd;
-  --scrollbar-auto-track: #00000066;
+  --scrollbar-auto-thumb: #000d;
+  --scrollbar-auto-track: #0007;
   /* User popout */
   --profile-body-background-color: transparent;
 
@@ -46,5 +46,5 @@
   .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi), /* Folder background */
   .grid-1aWVsE, .wrapper-1FP9YQ, /* Embeds */
   .scrollbarGhostHairline-2LpzZ9, .inline /* Code blocks */ {
-  background-color: #0005 !important;
+  background-color: #0007 !important;
 }

@@ -27,7 +27,7 @@
 
 /* Discord why are you like this */
 /* Stuff that doesn't get its color from a variable */
-.chat-2ZfjoI>*, .chat-2ZfjoI>*>* /* Stuff that "overwrights" the chat window such as server Q&A / Community search */ {
+.chat-2ZfjoI>*, .chat-2ZfjoI>*>* /* Stuff that "overwrites" the chat window such as server Q&A / Community search */ {
   background: transparent !important;
 }
 
@@ -47,10 +47,4 @@
   .grid-1aWVsE, .wrapper-1FP9YQ, /* Embeds */
   .scrollbarGhostHairline-2LpzZ9, .inline /* Code blocks */ {
   background-color: #0005 !important;
-}
-
-.layers-OrUESM {
-  margin: 5px;
-  border-radius: 8px;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.375);
 }

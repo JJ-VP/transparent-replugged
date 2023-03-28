@@ -36,5 +36,5 @@ A: Same as above, except this time you are changing the linear-gradient alpha (t
 
 ## Preview
 
-![Preview1](https://i.imgur.com/0T07UBC.png)
-![Preview2](https://i.imgur.com/TJcGG1g.png)
+![Preview1](https://i.imgur.com/Bcn5hQb.png)
+![Preview2](https://i.imgur.com/s69hTmv.png)

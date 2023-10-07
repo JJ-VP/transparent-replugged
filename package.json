@@ -1,6 +1,6 @@
 {
   "name": "TransparentCord",
-  "version": "1.0.4",
+  "version": "2.1.0",
   "description": "Makes Discord transparent",
   "engines": {
     "node": ">=14.0.0"
@@ -12,9 +12,8 @@
     "lint": "prettier ./src --check",
     "lint:fix": "prettier ./src --write"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "JJ",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/config-default": "^2.9.3",
     "@parcel/core": "^2.9.3",

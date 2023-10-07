@@ -1,18 +1,11 @@
 # Transparent Replugged! - AKA TransparentCord
 
 This is my original work so feel free to use / edit it however you want.</br></br>
-Found something that isn't trasparent that should be? Either fix it and [create a PR](https://github.com/JJ-VP/transparent-replugged/pulls), or [create an issue](https://github.com/JJ-VP/transparent-replugged/issues/new/choose) and let me know where the find the element.
+Found something that isn't transparent that should be? Either fix it and [create a PR](https://github.com/JJ-VP/transparent-replugged/pulls), or [create an issue](https://github.com/JJ-VP/transparent-replugged/issues/new/choose) and let me know where to find the element.
 
-### What does this theme do?
+## What does this theme do?
 
-It simple makes as many elements as possible transparent. No layout changes, no fancy features, just transparency.
-
-## Q&A
-
-Q: Can I change the background image?</br>
-A: Yes, but also No. In the release version, No. You would have to clone the repo and edit the index.css to change the background-image url to an image of your choice.</br></br>
-Q: Can I change the background dim?</br>
-A: Same as above, except this time you are changing the linear-gradient alpha (thats the last number of the rgba 0 = no dim, 1 = fully dimmed)
+It simply makes as many elements as possible transparent. No layout changes, no fancy features, just transparency.
 
 ## Install
 
@@ -30,9 +23,28 @@ A: Same as above, except this time you are changing the linear-gradient alpha (t
 ### Development:
 
 1. Clone this repo `git clone https://github.com/JJ-VP/transparent-replugged.git`
-2. Install dependancies `npm i`
-3. Build the theme using `npm run build` or `npm run bundle` *if you bundle you will have to manually move the theme from repo/bundle to your [themes folder](https://github.com/replugged-org/replugged/wiki/Installing-plugins-and-themes).*
+2. Install dependencies `pnpm i`
+3. Build the theme using `pnpm run build` or `pnpm run bundle` *if you bundle you will have to manually move the theme from repo/bundle to your [themes folder](https://github.com/replugged-org/replugged/wiki/Installing-plugins-and-themes).*
 4. Load Missing Themes
+
+## Customize
+
+1. Open `Settings` > `Replugged` > `Quick CSS`.
+2. Add the following CSS:
+```css
+:root {
+  --transparent-bg-dim-upper: 0.75;
+  --transparent-bg-dim-lower: 0.75;
+  --transparent-bg-image: url("https://wallpaperaccess.com/full/260168.jpg");
+}
+```
+3. Change the values to your liking.
+
+| Description                   | Variable name                | Valid values                     | Default value                                        |
+| ----------------------------- | ---------------------------- | -------------------------------- | ---------------------------------------------------- |
+| Background dim gradient upper | `--transparent-bg-dim-upper` | `0` (transparent) - `1` (opaque) | `0.75`                                               |
+| Background dim gradient lower | `--transparent-bg-dim-lower` | `0` (transparent) - `1` (opaque) | `0.75`                                               |
+| Background image              | `--transparent-bg-image`     | Image link wrapped in `url()`    | `url("https://wallpaperaccess.com/full/260168.jpg")` |
 
 ## Preview
 

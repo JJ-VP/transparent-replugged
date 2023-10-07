@@ -9,7 +9,7 @@
   --background-secondary-alt: hsla(228, calc(var(--saturation-factor, 1) * 6.7%), 14.7%, 30%);
   --background-tertiary: hsla(225, calc(var(--saturation-factor, 1) * 6.3%), 12.5%, 33%);
   --background-floating: hsla(220, calc(var(--saturation-factor, 1) * 8.1%), 7.3%, 33%);
-  --home-background: hsla(220, calc(var(--saturation-factor, 1) * 7%), 16.9%, 33%);
+  --home-background: hsla(225, calc(var(--saturation-factor, 1) * 6.3%), 12.5%, 43.5%);
 
   /* Scrollbars */
   --scrollbar-auto-thumb: hsla(225, calc(var(--saturation-factor, 1) * 7.1%), 11%, 50%);
@@ -19,6 +19,7 @@
   --modal-background: var(--background-secondary);
   --modal-footer-background: var(--background-tertiary);
   --deprecated-card-bg: var(--background-secondary);
+  --deprecated-store-bg: var(--home-background);
   --bg-overlay-3: var(--background-floating);
   --bg-overlay-chat: var(--background-tertiary);
 }
@@ -26,9 +27,11 @@
 /* Background image & dim*/
 .appMount-2yBXZl {
   background-size: cover !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75))
-      /* Change the alpha (last number) of both to change the background dim */,
-    url("https://wallpaperaccess.com/full/260168.jpg") no-repeat center; /* Change the url to any image you want */
+  background: linear-gradient(
+      rgba(0, 0, 0, var(--transparent-bg-dim-upper, 0.75)),
+      rgba(0, 0, 0, var(--transparent-bg-dim-lower, 0.75))
+    ),
+    var(--transparent-bg-image, url("https://wallpaperaccess.com/full/260168.jpg")) no-repeat center;
 }
 
 /* Discord why are you like this */
@@ -36,4 +39,9 @@
 .chat-2ZfjoI>*, .chat-2ZfjoI>*>*, /* Stuff that "overwrites" the chat window such as server Q&A / Community search */
 .message-G6O-Wv /* delete message modal message preview */ {
   background: transparent !important;
+}
+
+.appMount-2yBXZl .pageWrapper-2PwDoS, /* Discover */
+.appMount-2yBXZl .directoryContainer-z-0pgp /* App directory */ {
+  background: var(--home-background);
 }

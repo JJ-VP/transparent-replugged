@@ -7,7 +7,7 @@
     "discordID": "176721924448059402",
     "github": "JJ-VP"
   },
-  "version": "1.0.5",
+  "version": "2.1.0",
   "updater": {
     "type": "store",
     "id": "dev.jj.transparent"
@@ -16,5 +16,8 @@
   "type": "replugged-theme",
   "main": "src/index.css",
   "source": "https://github.com/JJ-VP/transparent-replugged",
-  "image": ["https://media.discordapp.net/attachments/1060206045055701013/1159946954550292640/68747470733a2f2f692e696d6775722e636f6d2f42636e356851622e706e67.png","https://cdn.discordapp.com/attachments/1060206045055701013/1159946984707330128/68747470733a2f2f692e696d6775722e636f6d2f73363968546d762e706e67.png"]
+  "image": [
+    "https://media.discordapp.net/attachments/1060206045055701013/1159946954550292640/68747470733a2f2f692e696d6775722e636f6d2f42636e356851622e706e67.png",
+    "https://cdn.discordapp.com/attachments/1060206045055701013/1159946984707330128/68747470733a2f2f692e696d6775722e636f6d2f73363968546d762e706e67.png"
+  ]
 }

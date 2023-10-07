@@ -20,6 +20,7 @@
   --modal-footer-background: var(--background-tertiary);
   --deprecated-card-bg: var(--background-secondary);
   --bg-overlay-3: var(--background-floating);
+  --bg-overlay-chat: var(--background-tertiary);
 }
 
 /* Background image & dim*/

@@ -1,14 +1,18 @@
-:root, .theme-dark, .theme-light, .theme-amoled, .theme-darker {
+:root,
+.theme-dark,
+.theme-light,
+.theme-amoled,
+.theme-darker {
   /* Main */
   --background-primary: transparent;
-  --background-secondary: hsla(220, calc(var(--saturation-factor, 1)*6.5%), 18%, 27%);
-  --background-secondary-alt: hsla(228, calc(var(--saturation-factor, 1)*6.7%), 14.7%, 30%);
-  --background-tertiary: hsla(225, calc(var(--saturation-factor, 1)*6.3%), 12.5%, 33%);
-  --background-floating: hsla(220, calc(var(--saturation-factor, 1)*8.1%), 7.3%, 33%);
-  --home-background: hsla(220, calc(var(--saturation-factor, 1)*7%), 16.9%, 33%);
+  --background-secondary: hsla(220, calc(var(--saturation-factor, 1) * 6.5%), 18%, 27%);
+  --background-secondary-alt: hsla(228, calc(var(--saturation-factor, 1) * 6.7%), 14.7%, 30%);
+  --background-tertiary: hsla(225, calc(var(--saturation-factor, 1) * 6.3%), 12.5%, 33%);
+  --background-floating: hsla(220, calc(var(--saturation-factor, 1) * 8.1%), 7.3%, 33%);
+  --home-background: hsla(220, calc(var(--saturation-factor, 1) * 7%), 16.9%, 33%);
 
   /* Scrollbars */
-  --scrollbar-auto-thumb: hsla(225, calc(var(--saturation-factor, 1)*7.1%), 11%, 50%);
+  --scrollbar-auto-thumb: hsla(225, calc(var(--saturation-factor, 1) * 7.1%), 11%, 50%);
   --scrollbar-auto-track: var(--background-secondary);
 
   /* Misc */
@@ -21,14 +25,14 @@
 /* Background image & dim*/
 .appMount-2yBXZl {
   background-size: cover !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)) /* Change the alpha (last number) of both to change the background dim */,
-      url("https://wallpaperaccess.com/full/260168.jpg") no-repeat center; /* Change the url to any image you want */
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75))
+      /* Change the alpha (last number) of both to change the background dim */,
+    url("https://wallpaperaccess.com/full/260168.jpg") no-repeat center; /* Change the url to any image you want */
 }
 
 /* Discord why are you like this */
 /* Stuff that doesn't get its color from a variable */
 .chat-2ZfjoI>*, .chat-2ZfjoI>*>*, /* Stuff that "overwrites" the chat window such as server Q&A / Community search */
-.message-G6O-Wv /* delete message modal message preview */
-{
+.message-G6O-Wv /* delete message modal message preview */ {
   background: transparent !important;
 }

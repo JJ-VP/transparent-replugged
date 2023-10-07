@@ -9,7 +9,7 @@
   --background-secondary-alt: hsla(228, calc(var(--saturation-factor, 1) * 6.7%), 14.7%, 30%);
   --background-tertiary: hsla(225, calc(var(--saturation-factor, 1) * 6.3%), 12.5%, 33%);
   --background-floating: hsla(220, calc(var(--saturation-factor, 1) * 8.1%), 7.3%, 33%);
-  --home-background: hsla(220, calc(var(--saturation-factor, 1) * 7%), 16.9%, 33%);
+  --home-background: hsla(225, calc(var(--saturation-factor, 1) * 6.3%), 12.5%, 43.5%);
 
   /* Scrollbars */
   --scrollbar-auto-thumb: hsla(225, calc(var(--saturation-factor, 1) * 7.1%), 11%, 50%);

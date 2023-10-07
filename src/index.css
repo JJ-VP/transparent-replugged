@@ -27,9 +27,11 @@
 /* Background image & dim*/
 .appMount-2yBXZl {
   background-size: cover !important;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75))
-      /* Change the alpha (last number) of both to change the background dim */,
-    url("https://wallpaperaccess.com/full/260168.jpg") no-repeat center; /* Change the url to any image you want */
+  background: linear-gradient(
+      rgba(0, 0, 0, var(--transparent-bg-dim-upper, 0.75)),
+      rgba(0, 0, 0, var(--transparent-bg-dim-lower, 0.75))
+    ),
+    var(--transparent-bg-image, url("https://wallpaperaccess.com/full/260168.jpg")) no-repeat center;
 }
 
 /* Discord why are you like this */

@@ -18,7 +18,7 @@ A: Same as above, except this time you are changing the linear-gradient alpha (t
 
 ### Automatic:
 
-[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=jj-vp/transparent-replugged&source=github)
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=dev.jj.transparent&source=store)
 
 ### Manual:
 

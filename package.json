@@ -1,6 +1,6 @@
 {
   "name": "TransparentCord",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Makes Discord transparent",
   "engines": {
     "node": ">=14.0.0"

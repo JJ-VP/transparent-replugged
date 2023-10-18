@@ -37,7 +37,7 @@
 
 /* Discord why are you like this */
 /* Stuff that doesn't get its color from a variable */
-.chat-2ZfjoI>*, .chat-2ZfjoI>*>*, /* Stuff that "overwrites" the chat window such as server Q&A / Community search */
+.chat-9g_3Xj>*, .chat-9g_3Xj>*>*, /* Stuff that "overwrites" the chat window such as server Q&A / Community search */
 .message-G6O-Wv /* delete message modal message preview */ {
   background: transparent !important;
 }

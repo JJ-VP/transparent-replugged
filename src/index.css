@@ -22,6 +22,7 @@
   --deprecated-store-bg: var(--home-background);
   --bg-overlay-3: var(--background-floating);
   --bg-overlay-chat: var(--background-tertiary);
+  --primary-630: hsla(220, calc(var(--saturation-factor, 1) * 6.5%), 18%, 80%);
 }
 
 /* Background image & dim*/
